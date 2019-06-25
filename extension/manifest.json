@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "chlogger",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
